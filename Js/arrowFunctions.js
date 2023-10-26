@@ -1,4 +1,7 @@
-// Funciones
+/**
+ *  Funcion que devuelve un console.log con el parametro de entrada
+ * @param {*} num Muestra el parametro en la consola
+ */
 function sumar(num) {
   console.log(num);
 }
@@ -6,18 +9,18 @@ function sumar(num) {
 sumar(23); // 10
 
 // Arrow
-const sumar_2 = (num) => {
+const sumarDos = (num) => {
   console.log(num);
 };
-sumar_2(20);
+sumarDos(20);
 
 // Arrow return
 const resta = (a, b) => a - b;
 const resultado = resta(2, 1);
 console.log(resultado);
 
-const hellow = (msg) => "hola: " + msg;
-const saludar = hellow("Marc");
+const hellow = (msg) => 'hola: ' + msg;
+const saludar = hellow('Marc');
 console.log(saludar);
 
 // Parametro por defecto

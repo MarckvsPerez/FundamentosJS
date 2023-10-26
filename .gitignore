@@ -1,0 +1,38 @@
+# Directorios
+node_modules/
+dist/
+tmp/
+out/
+build/
+
+# Archivos de construcción y registros
+*.log
+npm-debug.log*
+
+# Archivos de configuración
+.env
+.env.local
+.env.*.local
+
+# Dependencias de desarrollo
+package-lock.json
+yarn.lock
+
+# Archivos generados por herramientas de construcción
+*.min.js
+*.min.css
+
+# Carpeta de dependencias Bower
+bower_components/
+
+# Dependencias específicas de IDE
+.vscode/
+.idea/
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Carpetas y archivos generados por pruebas
+coverage/
+.cypress/
